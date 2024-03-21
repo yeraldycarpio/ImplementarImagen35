@@ -18,3 +18,5 @@ CREATE TABLE productos (
 
     FOREIGN KEY (categoria_id) REFERENCES categorias(id)
 );
+
+Scaffold-DbContext "Data Source=.;Initial Catalog=IMAGENES;Integrated Security=True;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
